@@ -130,6 +130,7 @@ def get_code(text):
     coded_text = ""
     for x in list_to_code:               # Goes over te list and changes each index
         coded_text += str(code_text(x))
+    print(coded_text)
     return coded_text
 
 
@@ -138,5 +139,6 @@ def get_decode(text):                         # Takes a text and uses the break_
     decoded_text = ""
     for x in list_to_decode:            # Goes over te list and changes each index
         decoded_text += str(decode_text(x))
+    print(decoded_text)
     return decoded_text
 
